@@ -21,6 +21,10 @@
     --black: #000000;
     --orange: #F36A3E;
     --white: #FAFAFA;
+    --border-1: #00000008;
+    --shadow-1: #0000000A;
+    --border-2: #F36A3E66;
+    --sec2: #00000026;
     /* font-weight */
     --fw-400: 400;
     --fw-500: 500;
@@ -30,6 +34,20 @@
     --op-80: 80%;
     --op-90: 90%;
 
+}
+.sec2{
+    color: var(--sec2);
+}
+.border-2 {
+    color: var(--border-2);
+}
+
+.shadow-1 {
+    color: var(--shadow-1);
+}
+
+.border-1 {
+    color: var(--border-1);
 }
 
 .rubik {
