@@ -361,6 +361,57 @@
     transform: rotate(20deg);
 }
 
+/* sec-4////////// */
+.py-sec-4 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.max-548 {
+    max-width: 548px;
+}
+
+.sec-4-para {
+    max-width: 556px;
+    padding-top: 16px;
+}
+
+.btn-book {
+    max-width: 161px;
+    padding: 17px 38px 17px 38px;
+    background: var(--orange);
+    border-radius: 41px;
+    border: none;
+    outline: none;
+    transition: all 300ms linear;
+}
+
+.btn-book:hover {
+    background: var(--white);
+    color: var(--orange);
+    box-shadow: 0px 0px 15px 0px var(--orange);
+}
+
+.sec-4-ellipse-1 {
+    bottom: -70px;
+    left: 0px;
+}
+
+.sec-4-ellipse-2 {
+    top: -50px;
+    right: 0px;
+}
+
+/* sec-5///////////// */
+.max-w-1158 {
+    max-width: 1158px !important;
+}
+
+.py-sec-5 {
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
 @media (min-width:576px) {}
 
 @media (max-width:768px) {
@@ -370,6 +421,16 @@
 }
 
 @media (min-width:768px) {
+    .py-sec-5 {
+        padding-top: 80px;
+        padding-bottom: 78px;
+    }
+
+    .py-sec-4 {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
     .py-row-3 {
         padding-top: 85px;
         padding-bottom: 85px;
@@ -501,6 +562,16 @@
 }
 
 @media (min-width:992px) {
+    .py-sec-5 {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .py-sec-4 {
+        padding-top: 167px;
+        padding-bottom: 153px;
+    }
+
     .sec-3-elipse1 {
         top: 59px;
         left: 64px;
