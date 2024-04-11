@@ -411,22 +411,28 @@
     padding-top: 40px;
     padding-bottom: 50px;
 }
-.max-509{
+
+.max-509 {
     max-width: 509px;
 }
-.max-558{
+
+.max-558 {
     max-width: 558px;
 }
-.sec-5-para{
+
+.sec-5-para {
     padding-top: 16px;
     max-width: 556px;
 }
-.gap-16{
+
+.gap-16 {
     gap: 16px;
 }
-.gap_9{
+
+.gap_9 {
     gap: 9px;
 }
+
 .btn-sec5 {
     max-width: 168px;
     padding: 17px 38px 17px 38px;
@@ -442,17 +448,29 @@
     color: var(--orange);
     box-shadow: 0px 0px 15px 0px var(--orange);
 }
-.pt-33{
+
+.pt-33 {
     padding-top: 33px;
 }
-.mt-44{
+
+.mt-44 {
     margin-top: 44px !important;
 }
-.sec-5-elipse{
+
+.sec-5-elipse {
     left: -180px;
     top: 5px;
 }
 
+/* sec-6 */
+.max-465 {
+    max-width: 465px;
+}
+
+.py-sec6 {
+    padding-top: 100px;
+    padding-bottom: 105px;
+}
 
 
 
@@ -474,6 +492,11 @@
 }
 
 @media (min-width:768px) {
+    .py-sec6 {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
     .py-sec-5 {
         padding-top: 80px;
         padding-bottom: 78px;
@@ -615,6 +638,22 @@
 }
 
 @media (min-width:992px) {
+    .py-sec6 {
+        padding-top: 135px;
+        padding-bottom: 163px;
+    }
+
+    .header-line-3::after {
+        content: "";
+        background-image: url(../images/svg/header-line3.svg);
+        width: 376px;
+        height: 7px;
+        position: absolute;
+        bottom: -8px;
+        left: 0;
+        background-size: 100% 100%;
+    }
+
     .py-sec-5 {
         padding-top: 100px;
         padding-bottom: 100px;
@@ -811,8 +850,7 @@
 @media (max-width:991px) {
     .mobile_view {
         position: fixed;
-        background: transparent;
-        backdrop-filter: blur(50px);
+        background: var(--white2);
         height: 100vh;
         width: 100%;
         top: 0;
