@@ -411,7 +411,9 @@
     padding-top: 40px;
     padding-bottom: 50px;
 }
-
+.max-509{
+    max-width: 509px;
+}
 @media (min-width:576px) {}
 
 @media (max-width:768px) {
