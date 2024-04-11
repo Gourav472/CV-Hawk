@@ -35,9 +35,11 @@
     --op-90: 90%;
 
 }
-.sec2{
+
+.sec2 {
     color: var(--sec2);
 }
+
 .border-2 {
     color: var(--border-2);
 }
