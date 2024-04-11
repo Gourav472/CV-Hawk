@@ -312,6 +312,54 @@
     z-index: 1;
 }
 
+/* sec-3//////////// */
+.bg-sec3 {
+    background: var(--bg);
+}
+
+.max-w-1167 {
+    max-width: 1167px !important;
+}
+
+.py-row-3 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.max-496 {
+    max-width: 496px;
+}
+
+.max-487 {
+    max-width: 487px;
+}
+
+.sec-3-para {
+    max-width: 525px;
+    padding-top: 11px;
+}
+
+.mt-40 {
+    margin-top: 40px !important;
+}
+
+
+.sec-3-elipse1 {
+    top: 41px;
+    left: 67px;
+}
+
+.sec-3-elipse2 {
+    bottom: -11px;
+    left: 364px;
+    transform: rotate(-50deg);
+}
+
+.sec-3-elipse3 {
+    top: 4px;
+    right: 7px;
+    transform: rotate(20deg);
+}
 
 @media (min-width:576px) {}
 
@@ -322,6 +370,22 @@
 }
 
 @media (min-width:768px) {
+    .py-row-3 {
+        padding-top: 85px;
+        padding-bottom: 85px;
+    }
+
+    .header-line-2::after {
+        content: "";
+        background-image: url(../images/svg/header-line-2.svg);
+        width: 186px;
+        height: 11px;
+        position: absolute;
+        bottom: -8px;
+        left: 0;
+        background-size: 100% 100%;
+    }
+
     .header1 {
         left: 56px;
         bottom: 279px;
@@ -437,6 +501,55 @@
 }
 
 @media (min-width:992px) {
+    .sec-3-elipse1 {
+        top: 59px;
+        left: 64px;
+    }
+
+    .sec-3-elipse2 {
+        bottom: 102px;
+        left: 599px;
+        transform: rotate(0deg);
+
+    }
+
+    .sec-3-elipse3 {
+        top: 92px;
+        right: 120px;
+        transform: rotate(0deg);
+    }
+
+    .max-sec-3-1 {
+        width: 64px;
+        height: 61px;
+    }
+
+    .max-sec-3-2 {
+        width: 76px;
+        height: 52px;
+    }
+
+    .max-sec-3-3 {
+        width: 61px;
+        height: 89px;
+    }
+
+    .py-row-3 {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .header-line-2::after {
+        content: "";
+        background-image: url(../images/svg/header-line-2.svg);
+        width: 345px;
+        height: 11px;
+        position: absolute;
+        bottom: -8px;
+        left: 0;
+        background-size: 100% 100%;
+    }
+
     .pl-12 {
         padding-left: 24px !important;
     }
@@ -471,17 +584,17 @@
         padding-bottom: 160px;
     }
 
-    .sec-elipse3 {
+    .max-sec-3-1 {
         width: 76px;
         height: 52px;
     }
 
-    .sec-elipse2 {
+    .max-sec-3-2 {
         width: 62px;
         height: 81px;
     }
 
-    .sec-elipse1 {
+    .max-sec-3-3 {
         width: 61px;
         height: 92px;
     }
