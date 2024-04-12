@@ -488,12 +488,15 @@
 .logo-hover {
     transition: all 300ms linear;
 }
-.logo-hover:hover{
+
+.logo-hover:hover {
     transform: scale(1.2);
 }
-.gap-20{
+
+.gap-20 {
     gap: 20px;
 }
+
 .under_line {
     position: relative;
 }
@@ -514,26 +517,122 @@
 .under_line:hover::after {
     width: 100%;
 }
-.gap_6{
+
+.gap_6 {
     gap: 6px;
 }
-.footer-py{
+
+.footer-py {
     padding-top: 70px;
     padding-bottom: 30px;
 }
 
-.footer-line{
+.footer-line {
     height: 1px;
     background: var(--white);
     opacity: 20%;
     width: 100%;
 }
-.py-last{
+
+.py-last {
     padding-top: 14px;
     padding-bottom: 14px;
 }
-.mt-col{
+
+.mt-col {
     margin-top: 30px !important;
+}
+
+/* slider/////////// */
+.pt-slider-1 {
+    padding-top: 80px;
+}
+
+.gap-12 {
+    gap: 12px;
+}
+
+.slider_box {
+    max-width: 357px;
+    background: var(--white2);
+    border-radius: 10px;
+    padding: 15px 18px 14px 18px;
+    box-shadow: 0px 18px 59px 0px var(--slider-shadow);
+
+}
+
+.gap_10 {
+    gap: 10px;
+}
+
+.gap_4 {
+    gap: 4px;
+}
+
+.pl-20 {
+    padding-left: 20px;
+}
+
+.arrow-down {
+    left: 31px;
+    bottom: 63px;
+}
+.arrow-down-2{
+    left: 33px;
+    bottom: 58px;
+}
+.arrow-down-3{
+    left: 20px;
+    bottom: 57px;
+}
+.arrow-down-4{
+    left: 43px;
+    bottom: 55px;
+}
+.arrow-down-5{
+    left: 30px;
+    bottom: 66px;
+}
+
+.gap-35 {
+    gap: 35px;
+}
+.max-w-98{
+    max-width: 98px;
+    min-height: 18px;
+}
+.pl-26{
+    padding-left: 26px;
+}
+.pl-10{
+    padding-left: 10px;
+}
+.pl-31{
+    padding-left: 31px;
+}
+.pl-21{
+    padding-left: 21px;
+}
+.px_35{
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.slider-row-py{
+    padding-top: 45px;
+    padding-bottom: 80px;
+}
+.mt-22{
+    margin-top: 22px !important;
+}
+.mt_26{
+    margin-top: 26px !important;
+}
+.mt_43{
+    margin-top: 43px !important;
+}
+.slider_3 .slick-slide{
+margin-left: 60px;
+margin-right: 60px;
 }
 
 
@@ -546,17 +645,20 @@
 }
 
 @media (min-width:768px) {
-    .mt-col{
+    .mt-col {
         margin-top: 63px !important;
     }
-    .py-last{
+
+    .py-last {
         padding-top: 20px;
         padding-bottom: 20px;
     }
-    .footer-py{
+
+    .footer-py {
         padding-top: 97px;
         padding-bottom: 50px;
     }
+
     .py-sec6 {
         padding-top: 120px;
         padding-bottom: 120px;
@@ -681,7 +783,7 @@
 }
 
 @media (max-width:992px) {
-  
+
     .w-h-page1 {
         max-width: 148px;
         height: 158px;
@@ -704,10 +806,11 @@
 }
 
 @media (min-width:992px) {
-    .footer-py{
+    .footer-py {
         padding-top: 208px;
         padding-bottom: 69px;
     }
+
     .py-sec6 {
         padding-top: 135px;
         padding-bottom: 163px;

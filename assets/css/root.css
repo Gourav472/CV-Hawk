@@ -26,7 +26,8 @@
     --border-2: #F36A3E66;
     --sec2: #00000026;
     --bg: #F9F9F9;
-    --white2:#FFFFFF;
+    --white2: #FFFFFF;
+    --slider-shadow: #00000012;
     /* font-weight */
     --fw-400: 400;
     --fw-500: 500;
@@ -37,7 +38,12 @@
     --op-90: 90%;
 
 }
-.white2{
+
+.slider-shadow {
+    color: var(--slider-shadow);
+}
+
+.white2 {
     color: var(--white2);
 }
 

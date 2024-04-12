@@ -56,7 +56,20 @@ $('.slider_2').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
   arrows: false,
-  // autoplay: true,
+  autoplay: true,
   speed: 900,
+
+});
+$('.slider_3').slick({
+  dots: false,
+  infinite: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: true,
+  autoplay: false,
+  speed: 900,
+  prevArrow: ".prev-btn",
+  nextArrow: ".next-btn",
+ 
 
 });
