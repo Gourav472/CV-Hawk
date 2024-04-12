@@ -16,7 +16,6 @@
     --line-height-47: 36px;
     --line-height-61: 41px;
 
-
     /* colors/////////////////////// */
     --black: #000000;
     --orange: #F36A3E;
@@ -139,8 +138,6 @@
     line-height: var(--line-height-61);
 }
 
-
-
 .fs-sm {
     font-size: var(--fs-sm);
 }
@@ -164,10 +161,6 @@
 .fs-3xl {
     font-size: var(--fs-3xl);
 }
-
-
-
-
 
 @media (min-width:576px) {
     :root {

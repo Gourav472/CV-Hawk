@@ -11,8 +11,6 @@ $('.responsive_1').slick({
   arrows: false,
   autoplay: true,
   speed: 900,
-  prevArrow: ".prev-btn",
-  nextArrow: ".next-btn",
   variableWidth: true,
   responsive: [
     {
@@ -70,6 +68,4 @@ $('.slider_3').slick({
   speed: 900,
   prevArrow: ".prev-btn",
   nextArrow: ".next-btn",
- 
-
 });
