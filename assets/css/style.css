@@ -309,7 +309,7 @@
 .sec2-elipse {
     top: -100px;
     left: 0px;
-    z-index: 1;
+    
 }
 
 /* sec-3//////////// */
@@ -682,8 +682,71 @@
     right: 110px;
     bottom: 30px;
 }
+.pt-text{
+    padding-top: 100px;
+}
+/* accoradian */
+.accordion-body {
+    padding: -8px 37px 24px 0px !important;
+}
 
+.pb-24{
+    padding-top: 0px !important;
+    padding-bottom: 24px !important;
+}
+.accordion-button {
+    background: transparent !important;
+    padding: 24px 25px 24px 0px !important;
+}
 
+.accordion-item {
+    background: transparent !important;
+}
+
+.accordion-button:not(.collapsed) {
+    background: transparent !important;
+}
+
+.accord {
+    max-width: 749px;
+
+}
+
+.accordion-button::after {
+    background-image: url(../images/svg/accordian-up.svg) !important;
+    transform: rotate(180deg);
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../images/svg/accordian-down.svg) !important;
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--white);
+    box-shadow: none !important;
+}
+
+.accordion {
+    --bs-accordion-btn-focus-box-shadow: none !important;
+    /* --bs-accordion-border-width: none; */
+    --bs-accordion-border-color: var(--acordain) !important;
+    
+}
+
+.accord-text {
+    color: var(--black) !important;
+}
+
+.py-accordian {
+    padding-top: 53px;
+    padding-bottom: 160px;
+}
+.max-acord-para{
+    max-width: 768px !important;
+}
+.accord{
+    max-width: 856px;
+}
 
 @media (min-width:375px) {
     .prev-btn {
@@ -705,6 +768,9 @@
 }
 
 @media (min-width:768px) {
+    .pt-text{
+        padding-top: 120px;
+    }
     .prev-btn {
         left: 0px;
         bottom: 287px;
@@ -886,6 +952,9 @@
 
 
 @media (min-width:992px) {
+    .pt-text{
+        padding-top: 160px;
+    }
   
     .slider_3 .slick-slider {
         margin:0 -55px;
@@ -1012,7 +1081,7 @@
     .sec2-elipse {
         top: -150px;
         left: 0px;
-        z-index: 1;
+        
     }
 
     .header-line::after {
