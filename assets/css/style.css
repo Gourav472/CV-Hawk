@@ -311,6 +311,21 @@
 
 }
 
+.elipse11 {
+    right: 0;
+    bottom: 0px;
+}
+
+.elipse12 {
+    right: 0px;
+    bottom: 80px;
+}
+
+.elipse13 {
+    left: 0px;
+    bottom: -350px;
+}
+
 /* sec-3//////////// */
 .bg-sec3 {
     background: var(--bg);
@@ -1112,6 +1127,16 @@
 
 
 @media (min-width:992px) {
+    .sec-elipse3 {
+        width: 76px;
+        height: 52px;
+    }
+
+    .sec-elipse1 {
+        width: 61px;
+        height: 92px;
+    }
+
     .bix-box {
         max-width: 1140px;
         padding: 36px 81px 36px 82px;
@@ -1137,7 +1162,7 @@
 
     .elipse-slider {
         top: 47px;
-        left: 502px;
+        left: 360px;
         z-index: 0;
     }
 
