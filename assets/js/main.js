@@ -69,3 +69,20 @@ $('.slider_3').slick({
   prevArrow: ".prev-btn",
   nextArrow: ".next-btn",
 });
+
+let my_button = document.getElementById("myBtn");
+
+window.onscroll = function () { scrollFunction() };
+
+function scrollFunction() {
+  if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 600) {
+    my_button.style.display = "block";
+  } else {
+    my_button.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
