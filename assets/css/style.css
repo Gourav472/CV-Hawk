@@ -757,6 +757,39 @@
     padding-bottom: 24px;
 }
 
+.bix-box {
+    max-width: 353px;
+    background: var(--orange);
+    border-radius: 21px;
+    padding: 61px 21px 60px 21px;
+    transform: translateY(75px);
+}
+
+.max-orange-para {
+    max-width: 669px;
+}
+
+.max-orange-para-2 {
+    max-width: 615px;
+    padding-top: 16px;
+}
+
+.btn-box {
+    max-width: 168px;
+    background: var(white);
+    padding: 17px 38px 17px 38px;
+    border-radius: 41px;
+    border: 1px solid transparent;
+    margin-top: 40px;
+    transition: all 300ms linear;
+}
+
+.btn-box:hover {
+    border: 1px solid var(--white);
+    background: var(--orange);
+    color: var(--white);
+    box-shadow: 0px 0px 15px 0px var(--white2);
+}
 
 @media (min-width:375px) {
     .prev-btn {
@@ -767,6 +800,12 @@
     .next-btn {
         right: 132px;
         bottom: 30px;
+    }
+}
+
+@media (min-width:450px) {
+    .bix-box {
+        max-width: 700px;
     }
 }
 
@@ -791,6 +830,11 @@
 }
 
 @media (min-width:768px) {
+    .bix-box {
+        max-width: 754px;
+        padding: 36px 81px 36px 82px;
+        transform: translateY(90px);
+    }
 
     .pt-text {
         padding-top: 120px;
@@ -978,6 +1022,12 @@
 
 
 @media (min-width:992px) {
+    .bix-box {
+        max-width: 1140px;
+        padding: 36px 81px 36px 82px;
+        transform: translateY(160px);
+    }
+
     .max-acord-para {
         max-width: 786px !important;
     }
