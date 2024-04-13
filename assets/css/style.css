@@ -776,7 +776,7 @@
 
 .btn-box {
     max-width: 168px;
-    background: var(white);
+    background: var(--white);
     padding: 17px 38px 17px 38px;
     border-radius: 41px;
     border: 1px solid transparent;
